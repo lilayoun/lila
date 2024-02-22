@@ -82,6 +82,23 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
+    Robert_Half: {
+      jobTitle: "Sr. Data Entry Clerk @",
+      duration: "FEB 2024 - Present",
+      desc: [
+        "Review and refine AI-generated code to enhance functionality and efficiency, ensuring it meets user requirements and industry standards",
+        "Provide structured feedback and guidance to improve the quality of inputs from AI trainers, directly impacting model performance"
+      ]
+    },
+    Outlier: {
+      jobTitle: "Software Engineer - AI Training @",
+      duration: "JAN 2024 - Present",
+      desc: [
+        "Review and refine AI-generated code to enhance functionality and efficiency, ensuring it meets user requirements and industry standards",
+        "Provide structured feedback and guidance to improve the quality of inputs from AI trainers, directly impacting model performance",
+        "Write and maintain code, including crafting clear, maintainable solutions for ongoing project challenges, ensuring scalability and adherence to best practices"
+      ]
+    },
     UNC: {
       jobTitle: "ITS Student Assistant @",
       duration: "SEP 2022 - JULY 2023",
