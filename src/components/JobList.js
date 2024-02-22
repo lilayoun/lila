@@ -82,7 +82,7 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Robert_Half: {
+    "Robert Half": {
       jobTitle: "Sr. Data Entry Clerk @",
       duration: "FEB 2024 - Present",
       desc: [
